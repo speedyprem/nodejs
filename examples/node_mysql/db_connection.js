@@ -2,9 +2,9 @@ const mysql = require('mysql');
 
 var mysqlConnection = mysql.createConnection({
    host:"127.0.0.1",
-   user:"wp",
-   password:"wp",
-   //database:"nodejs"
+   user:"root",
+   password:"",
+   database:"nodejs"
 });
 
 mysqlConnection.connect((err) => {
